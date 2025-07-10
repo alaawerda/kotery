@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Deletion Guide | Splanit</title>
+  <style>
+    body {
+      background: #f8f9fa;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 24px 12px 40px 12px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .header-icon {
+      font-size: 48px;
+      color: #007AFF;
+      margin-bottom: 8px;
+    }
+    .header-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+    .date {
+      font-size: 1rem;
+      color: #666;
+      margin-top: 8px;
+    }
+    .section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 20px 16px;
+      margin-bottom: 24px;
+    }
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    .paragraph {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 12px;
+    }
+    .step-list {
+      margin-left: 16px;
+      margin-bottom: 16px;
+    }
+    .step-item {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 8px;
+      display: list-item;
+      list-style: decimal inside;
+    }
+    img {
+      display: block;
+      margin: 1em auto;
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .contact-button {
+      display: inline-block;
+      background: #007AFF;
+      color: #fff;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-top: 8px;
+      transition: background 0.2s;
+    }
+    .contact-button:hover {
+      background: #005bb5;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px 2vw 32px 2vw;
+      }
+      .section {
+        padding: 14px 6px;
+      }
+    }
+  </style>
+  <link rel="icon" href="/assets/images/favicon.png">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-icon">🗑️</div>
+      <h1 class="header-title">How to Delete Your User Information in Splanit</h1>
+      <div class="date">Last updated: <!--DATE--></div>
+    </div>
+
+    <div class="section">
+      <div class="paragraph">
+        This guide explains how to permanently delete all your personal information from the Splanit app, step by step.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Step 1: Access the Account Deletion Page</div>
+      <ol class="step-list">
+        <li class="step-item">Open the app and log in to your account.</li>
+        <li class="step-item">Go to the <strong>Settings</strong> or <strong>Profile</strong> menu.</li>
+        <li class="step-item">Click on the <strong>Delete My Account</strong> or <strong>Delete My Data</strong> option.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Step 2: Confirm Deletion</div>
+      <ol class="step-list">
+        <li class="step-item">Read the warning about the permanent deletion of your data carefully.</li>
+        <li class="step-item">Tick the confirmation checkbox if required.</li>
+        <li class="step-item">Type <strong>DELETE MY DATA</strong> in the confirmation field to proceed.</li>
+        <li class="step-item">Enter your account password to confirm your identity.</li>
+        <li class="step-item">Click the <strong>Continue</strong> button.</li>
+      </ol>
+      <!-- images removed as requested -->
+    </div>
+
+    <div class="section">
+      <div class="section-title">Step 3: Final Verification</div>
+      <ol class="step-list">
+        <li class="step-item">A confirmation message will appear indicating that your account and data have been deleted.</li>
+        <li class="step-item">You will be automatically logged out of the app.</li>
+      </ol>
+      <!-- images removed as requested -->
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <div class="section-title">Need help?</div>
+      <div class="paragraph">If you encounter any issues while deleting your data, please contact our support:</div>
+      <a class="contact-button" href="mailto:wcdev.solutions@gmail.com">wcdev.solutions@gmail.com</a>
+    </div>
+  </div>
+  <script>
+    // Set current date in the header
+    const months = [
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+    const date = new Date();
+    const formatted = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+    document.querySelector('.date').textContent = 'Last updated: ' + formatted;
+  </script>
+</body>
+</html> 
